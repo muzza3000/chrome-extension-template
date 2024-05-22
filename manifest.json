@@ -1,0 +1,24 @@
+{
+    "name": "Extension Name",
+    "description": "Extension Description",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Title of the action button",
+      "default_popup": "popup.html",
+      "default_icon": "images/icon.png"
+    },
+    "icons": {
+      "16": "images/icon.png",
+      "32": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  }
